@@ -1,0 +1,7 @@
+'''Realizar un pograma que pueda calcular la hipotenusa de un triángulo rectángulo'''
+
+import math
+c1 = int(input("Escriba el valor del cateto 1: "))
+c2 = int(input("Escriba el valor del cateto 2: "))
+h = (c1*c1 + c2*c2)
+print ("La hipotenusa del tirangulo es: ",math.sqrt(h))
