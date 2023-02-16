@@ -6,8 +6,8 @@ def calificaciones (c1,c2,c3):
   c3 = c3*0.4
   promedio = (c1 + c2 +c3)
   return promedio
-c1= int(input("Ingrese la calificación del primer corte"))
-c2= int(input("Ingrese la calificación del segundo corte"))
-c3= int(input("Ingrese la calificación del tercer corte"))
+c1= int(input("Ingrese la calificación del primer corte: "))
+c2= int(input("Ingrese la calificación del segundo corte: "))
+c3= int(input("Ingrese la calificación del tercer corte: "))
 result = calificaciones (c1,c2,c3)
 print("Su promedio es: ",result)
